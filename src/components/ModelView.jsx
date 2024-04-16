@@ -30,7 +30,7 @@ const ModelView = ({
         ref={controlRef}
         enableZoom={false}
         enablePan={false}
-        rotateSpeed={0.4}
+        rotateSpeed={0.9}
         target={new THREE.Vector3(0, 0, 0)}
         onEnd={() => setrotationState(controlRef.current.getAzimuthalAngle())}
       />
